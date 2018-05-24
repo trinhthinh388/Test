@@ -8,14 +8,16 @@ namespace CompleteProject
     public class ScoreManager : MonoBehaviour
     {
         public static float score;        // The player's score.
-        public PlayerMovement playerMovement;
-        public PlayerHealth playerHealth;
+        PlayerMovement playerMovement;
+        PlayerHealth playerHealth;
 
         public Text text;                      // Reference to the Text component.
 
 
         void Awake ()
         {
+            playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+            playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
             score = 0;
         }
 
