@@ -1,0 +1,2 @@
+/Users/Thinh/Documents/GitHub/Test/Sample PJ/Temp/UnityVS_obj/Debug/Sample PJ.csprojResolveAssemblyReference.cache
+/Users/Thinh/Documents/GitHub/Test/Sample PJ/Temp/UnityVS_obj/Debug/Sample PJ.csproj.CoreCompileInputs.cache
