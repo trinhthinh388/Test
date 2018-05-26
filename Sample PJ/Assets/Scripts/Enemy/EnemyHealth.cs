@@ -77,6 +77,7 @@ namespace CompleteProject
             isDead = true;
 
             CoinManager.currentCoin += 10;
+            PowerManager.currentPower += 20;
 
             // Turn the collider into a trigger so shots can pass through it.
             capsuleCollider.isTrigger = true;

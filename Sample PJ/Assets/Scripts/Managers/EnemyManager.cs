@@ -26,7 +26,6 @@ namespace CompleteProject
 
         void Spawn ()
         {
-            Debug.Log(spawnPoints.Length);
             // If the player has no health left...
             if(playerHealth.currentHealth <= 0f)
             {

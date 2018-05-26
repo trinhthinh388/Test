@@ -10,8 +10,6 @@ namespace CompleteProject
         // Use this for initialization
         void Awake()
         {
-            player[1].SetActive(true);
-            player[0].SetActive(false);
         }
 
         // Update is called once per frame
